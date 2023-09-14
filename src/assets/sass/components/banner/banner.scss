@@ -1,0 +1,36 @@
+.banner {
+  background-color: #f6f8f9;
+  &-content {
+    padding: 60px 20px;
+    color: #3a3f52;
+
+    .banner-title {
+      color: $color-primary;
+      text-transform: uppercase;
+      letter-spacing: 0.05rem;
+    }
+    .banner-heading {
+      line-height: 1.2;
+      margin-bottom: 20px;
+      .banner-span {
+        line-height: 1.2;
+      }
+    }
+    .banner-para {
+      color: #8da2b5;
+      font-weight: 300;
+    }
+    .banner-bt {
+      margin-top: 35px;
+      .banner-link {
+        padding: 15px 30px;
+        background-color: $color-primary;
+        border-radius: 3px;
+        letter-spacing: 0.1em;
+      }
+      .banner-link:hover {
+        background-color: $color-btn-hover;
+      }
+    }
+  }
+}

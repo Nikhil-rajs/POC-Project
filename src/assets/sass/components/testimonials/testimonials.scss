@@ -1,0 +1,26 @@
+.testimonials {
+    background-color: #f6f8f9;
+    .testimonials-content{
+    //    padding: 0px 250px;
+        .testimonial-para{
+            color: #8da2b5;
+        }
+    }
+    .testimonial-box{
+        padding: 20px 30px;
+        background-color: white ;
+        border-radius: 20px;
+        .testimonial-card{
+            
+            .testimonial-details-wrapper{
+                border-bottom: 1px solid #edf1f2;
+                .testimonial-author-details{
+                    padding: 5px 15px 20px ;
+                    .author-designation{
+                        color: #8da2b5;
+                    }
+                }
+            }
+        }
+    }
+}

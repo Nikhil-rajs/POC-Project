@@ -1,0 +1,26 @@
+.feature{
+    .feature-content-wrapper{
+        padding: 60px 25px;
+        .feature-title{
+            color: $color-primary;
+            letter-spacing: 0.05em;
+        }
+        .feature-Heading{
+        
+            line-height: 1.6;
+        }
+        .feature-para{
+            color: #8da2b5;
+            letter-spacing: 0.05em;
+        }
+        .feature-bt{
+            margin-top: 35px;
+           .feature-link{
+            padding: 15px 30px;
+        background-color: $color-primary;
+        border-radius: 3px;
+        letter-spacing: 0.1em;
+           } 
+        }
+    }
+}
