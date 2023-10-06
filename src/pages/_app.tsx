@@ -1,12 +1,15 @@
 import type { AppProps } from 'next/app';
 import { I18nProvider } from 'next-localization';
 import { SitecorePageProps } from 'lib/page-props';
-import 'assets/main.scss';
 import 'tailwindcss/tailwind.css';
+import 'assets/main.scss';
 import {Roboto} from 'next/font/google';
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core"; 
+
+
 config.autoAddCss = false;
+
 const roboto = Roboto({subsets : ['latin'], weight:'300' });
 function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element {
   const { dictionary, ...rest } = pageProps;

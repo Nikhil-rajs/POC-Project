@@ -1,0 +1,20 @@
+.pricing {
+  .pricing-content {
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+  };
+  .pricingcard{
+    
+    .card-content{
+      margin-top: 30px;
+      padding: 40px 20px;
+      border: 1px solid #F8F9FB;
+      box-shadow: 0 0 1px 0 rgba(0,12,32,0.04), 0 10px 16px 0 rgba(10,31,68,0.06);
+      .card-cta{
+        padding: 15px 48px;
+      }
+    }
+  }
+};
