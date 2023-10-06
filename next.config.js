@@ -9,7 +9,13 @@ const publicUrl = getPublicUrl();
  */
 const nextConfig = {
   images: {
-    domains: ['workable-sensibly-serval.ngrok-free.app', 'https://bedsc.dev.local'],
+    domains: [
+      'workable-sensibly-serval.ngrok-free.app',
+      'https://bedsc.dev.local',
+      'https://poc-project-git-main-nikhil-rajs-projects.vercel.app',
+      'https://poc-project-60a3ozt3y-nikhil-rajs-projects.vercel.app',
+      'https://poc-project-eta.vercel.app',
+    ],
   },
   // Set assetPrefix to our public URL
   assetPrefix: publicUrl,
