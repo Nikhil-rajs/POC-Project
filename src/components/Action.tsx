@@ -28,7 +28,9 @@ type ContentBlockProps = ComponentProps & {
 };
 
 const Action = ({ fields }: ContentBlockProps) => {
-  const bgImage = 'https://bedsc.dev.local' + fields.data.fields.actionImg.jsonValue.value.src;
+  const bgImage =
+    'https://workable-sensibly-serval.ngrok-free.app' +
+    fields.data.fields.actionImg.jsonValue.value.src;
   return (
     <div className="action py-[100px]" style={{ backgroundImage: `url(${bgImage})` }}>
       <div className="container mx-auto px-3.5">
