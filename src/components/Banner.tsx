@@ -27,7 +27,6 @@ type BannerProps = ComponentProps & {
   };
 };
 const Banner = ({ fields }: BannerProps) => {
-
   return (
     <div className="banner py-[100px]">
       <div className="container mx-auto">

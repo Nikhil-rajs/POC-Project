@@ -45,7 +45,8 @@ const Feature = ({ fields }: FeatureProps) => {
               <div className="feature-bt">
                 <Link
                   field={fields.data.fields.featureCTA.jsonValue}
-                  className="feature-link text-center text-white text-[14px] font-normal">
+                  className="feature-link text-center text-white text-[14px] font-normal"
+                >
                   Start Free Trial
                 </Link>
               </div>

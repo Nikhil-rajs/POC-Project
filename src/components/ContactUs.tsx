@@ -6,7 +6,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import { ChangeEvent } from 'react';
 
 type ContactusProps = ComponentProps & {
   fields: {
@@ -18,7 +18,7 @@ type ContactusProps = ComponentProps & {
   };
 };
 const Contactus = ({ fields }: ContactusProps) => {
-  const formhandler = (event:any) => {
+  const formhandler = (event: ChangeEvent<HTMLFormElement>) => {
     event.preventDefault();
     const name = event.target.Name.value;
     console.log('Name:', name);
