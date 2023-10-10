@@ -29,7 +29,7 @@ type ContentBlockProps = ComponentProps & {
 };
 const Action = ({ fields }: ContentBlockProps) => {
   return (
-    <div className="action ">
+    <div className="action relative -z-10">
       <div className="action-background  w-full h-full relative">
         <Image
           className="w-full h-screen lg:h-fit"
