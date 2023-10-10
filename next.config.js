@@ -8,6 +8,9 @@ const publicUrl = getPublicUrl();
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
+  headers: {
+    'ngrok-skip-browser-warning': 'true', // Set your desired value here
+  },
   images: {
     domains: [
       'workable-sensibly-serval.ngrok-free.app',
